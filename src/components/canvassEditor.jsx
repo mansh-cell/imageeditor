@@ -8,7 +8,7 @@ const CanvassEditor = ({ imageSrc }) => {
 
   useEffect(() => {
     console.log(imageSrc);
-    const fabricCanvas = new fabric.Canvas(canvasRef.current);
+    const fabricCanvas = fabric.Canvas(canvasRef.current);
     setCanvas(fabricCanvas);
 
     return () => {
