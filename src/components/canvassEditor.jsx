@@ -30,8 +30,8 @@ const CanvassEditor = ({ imageSrc }) => {
               } else {
                 console.log("Fabric image loaded:", img);
                 img.set({
-                  left: 0,
-                  top: 0,
+                  left: 100,
+                  top: 100,
                   selectable: true,
                   hasBorders: false,
                 });
@@ -98,11 +98,19 @@ const CanvassEditor = ({ imageSrc }) => {
 
   return (
     <div>
-      <canvas ref={canvasRef} width="1500px" height="500px"></canvas>
-      <button  className="btn" onClick={addText}>Add Text</button>
-      <button className="btn"onClick={() => addShape("circle")}>Add Circle</button>
-      <button className="btn" onClick={() => addShape("rectangle")}>Add Rectangle</button>
-      <button className="btn" onClick={downloadImage}>Download</button>
+      <canvas ref={canvasRef} width="100%" height="500px"></canvas>
+      <button className="btn" onClick={addText}>
+        Add Text
+      </button>
+      <button className="btn" onClick={() => addShape("circle")}>
+        Add Circle
+      </button>
+      <button className="btn" onClick={() => addShape("rectangle")}>
+        Add Rectangle
+      </button>
+      <button className="btn" onClick={downloadImage}>
+        Download
+      </button>
     </div>
   );
 };
