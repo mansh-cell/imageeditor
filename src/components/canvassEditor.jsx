@@ -98,7 +98,7 @@ const CanvassEditor = ({ imageSrc }) => {
 
   return (
     <div>
-      <canvas ref={canvasRef} width="100%" height="500px"></canvas>
+      <canvas ref={canvasRef} width="1500px" height="500px"></canvas>
       <button className="btn" onClick={addText}>
         Add Text
       </button>
