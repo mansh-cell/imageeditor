@@ -98,11 +98,11 @@ const CanvassEditor = ({ imageSrc }) => {
 
   return (
     <div>
-      <canvas ref={canvasRef} width="1200px" height="900px"></canvas>
-      <button onClick={addText}>Add Text</button>
-      <button onClick={() => addShape("circle")}>Add Circle</button>
-      <button onClick={() => addShape("rectangle")}>Add Rectangle</button>
-      <button onClick={downloadImage}>Download</button>
+      <canvas ref={canvasRef} width="1500px" height="500px"></canvas>
+      <button  className="btn" onClick={addText}>Add Text</button>
+      <button className="btn"onClick={() => addShape("circle")}>Add Circle</button>
+      <button className="btn" onClick={() => addShape("rectangle")}>Add Rectangle</button>
+      <button className="btn" onClick={downloadImage}>Download</button>
     </div>
   );
 };
