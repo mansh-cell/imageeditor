@@ -30,8 +30,9 @@ const CanvassEditor = ({ imageSrc }) => {
               } else {
                 console.log("Fabric image loaded:", img);
                 img.set({
-                  left: 100,
-                  top: 100,
+                  left: 50,
+                  right: 50,
+                  top: 50,
                   selectable: true,
                   hasBorders: false,
                 });
@@ -98,7 +99,8 @@ const CanvassEditor = ({ imageSrc }) => {
 
   return (
     <div>
-      <canvas ref={canvasRef} width="1500px" height="500px"></canvas>
+      <canvas ref={canvasRef} width="1200px" height="800px"></canvas>
+      <br />
       <button className="btn" onClick={addText}>
         Add Text
       </button>
