@@ -1,6 +1,6 @@
 // src/components/Canvas.js
 import React, { useEffect, useRef, useState } from "react";
-import fabric from "fabric";
+import { fabric } from "fabric";
 
 const CanvassEditor = ({ imageSrc }) => {
   const canvasRef = useRef(null);
@@ -8,7 +8,7 @@ const CanvassEditor = ({ imageSrc }) => {
 
   useEffect(() => {
     console.log(imageSrc);
-    const fabricCanvas = fabric.Canvas(canvasRef.current);
+    const fabricCanvas = new fabric.Canvas(canvasRef.current);
     setCanvas(fabricCanvas);
 
     return () => {

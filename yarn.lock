@@ -4643,10 +4643,10 @@ extsprintf@^1.2.0, extsprintf@1.3.0:
   resolved "https://registry.npmjs.org/extsprintf/-/extsprintf-1.3.0.tgz"
   integrity sha512-11Ndz7Nv+mvAC1j0ktTa7fAb0vLyGGX+rMHNBYQviQDGU0Hw7lhctJANqbPhu9nV9/izT/IntTgZ7Im/9LJs9g==
 
-fabric@^4.5.1:
-  version "4.5.1"
-  resolved "https://registry.npmjs.org/fabric/-/fabric-4.5.1.tgz"
-  integrity sha512-s0ywa4WQh/QortuhlVkWOj692udzwI8cYWcLTlel/Jbhk3gevyB0fF/Rvo9in/bGV0c4TFl3cMiu6+wYwpfxdQ==
+fabric@^4.6.0:
+  version "4.6.0"
+  resolved "https://registry.npmjs.org/fabric/-/fabric-4.6.0.tgz"
+  integrity sha512-MhJXCD/ZugOGV5aPHIG0MY1q2EfrlzC2sasrAHj0HHXN50JTe1bHFrlRdkXBijCJ0dG81fGu/A/Pct9DyuwCzQ==
   optionalDependencies:
     canvas "^2.6.1"
     jsdom "^15.2.1"
